@@ -27,4 +27,4 @@ for day in range(6):
 
 print("=== Day 7 ===")
 print(rose.get_info())
-print(f"Growth this week: {rose.height - initial_height}cm")
+print(f"Growth this week: +{rose.height - initial_height}cm")
