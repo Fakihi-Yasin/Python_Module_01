@@ -1,4 +1,4 @@
-def main() -> None:
+if __name__ == "__main__":
     name: str = "Rose"
     height: str = "25cm"
     age: str = "30 days"
@@ -8,7 +8,3 @@ def main() -> None:
     print(f"Height: {height}")
     print(f"Age: {age}")
     print("\n=== End of Program ===")
-
-
-if __name__ == "__main__":
-    main()
