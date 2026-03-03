@@ -16,7 +16,8 @@ if __name__ == "__main__":
     plant5 = Plant("Fern", 15, 120)
     print("=== Plant Factory Output ===")
 
-    for plant in [plant1, plant2, plant3, plant4, plant5]:
+    plants = [plant1, plant2, plant3, plant4, plant5]
+    for plant in plants:
         print(f"Created: {plant.name} ({plant.height}cm, {plant.age} days)")
 
-    print("\nTotal plants created: 5")
+    print(f"\nTotal plants created: {len(plants)}")
